@@ -1,1 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ATELIER — Premium Creative Studio</title>
+<meta name="description" content="A luxury creative studio crafting exceptional brand experiences.">
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,600&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
 
+<!-- PRELOADER -->
+<div class="preloader">
+  <div class="preloader-inner">
+    <div class="preloader-number">01</div>
+    <div class="preloader-line"></div>
+    <div class="preloader-text">ATELIER</div>
+  </div>
+</div>
+
+<!-- CUSTOM CURSOR -->
+<div class="cursor-dot"></div>
+<div class="cursor-ring"></div>
+
+<!-- NAVIGATION -->
+<nav class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="#home" class="nav-logo">
+      <span class="nav-logo-mark">A</span>
+      <span class="nav-logo-text">Atelier</span>
+    </a>
+    
+    <ul class="nav-menu">
+      <li><a href="#work">Work</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#studio">Studio</a></li>
+      <li><a href="#journal">Journal</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    
+    <div class="nav-actions">
+      <span class="nav-time" id="navTime">00:00</span>
+      <a href="#contact" class="nav-cta">Start Project</a>
+    </div>
+    
+    <button class="nav-burger" id="navBurger" aria-label="Menu">
+      <span></span>
+      <span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- MOBILE MENU -->
+<div class="mobile-menu" id="mobileMenu">
+  <div class="mobile-menu-inner">
+    <ul>
+      <li><a href="#work">01 — Work</a></li>
+      <li><a href="#services">02 — Services</a></li>
+      <li><a href="#studio">03 — Studio</a></li>
+      <li><a href="#journal">04 — Journal</a></li>
+      <li><a href="#contact">05 — Contact</a></li>
+    </ul>
+  </div>
+</div>
+
+<!-- HERO SECTION -->
+<section id="home" class="hero">
+  <div class="hero-video-wrap">
+    <video autoplay muted loop playsinline class="hero-video">
+      <source src="https://cdn.coverr.co/videos/coverr-luxury-hotel-lobby-2836/1080p.mp4" type="video/mp4">
+    </video>
+    <div class="hero-video-overlay"></div>
+    <div class="hero-grain"></div>
+  </div>
+  
+  <div class="hero-content">
+    <div class="hero-eyebrow">
+      <span class="eyebrow-line"></span>
+      <span>Est. 2015 — Creative Studio</span>
+    </div>
+    
+    <h1 class="hero-title">
+      <span class="title-row">
+        <span class="title-word">We craft</span>
+      </span>
+      <span class="title-row">
+        <span class="title-word title-italic">timeless</span>
+      </span>
+      <span class="title-row">
+        <span class="title-word">brands.</span>
+      </span>
+    </h1>
+    
+    <div class="hero-bottom">
+      <p class="hero-subtitle">
+        A luxury creative studio at the intersection of design, strategy, and craft. We build brands that endure.
+      </p>
+      <div class="hero-cta-group">
+        <a href="#work" class="btn btn-primary">
+          <span>View Our Work</span>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path d="M5 12h14M12 5l7 7-7 7"/>
+          </svg>
+        </a>
+        <a href="#contact" class="btn btn-text">
+          <span>Start a Project</span>
+        </a>
+      </div>
+    </div>
+  </div>
+  
+  <div class="hero-scroll">
+    <div class="scroll-label">Scroll</div>
+    <div class="scroll-line"></div>
+  </div>
+  
+  <div class="hero-corner hero-corner-tl">
+    <span>48.8566° N</span>
+  </div>
+  <div class="hero-corner hero-corner-br">
+    <span>2.3522° E</span>
+  </div>
+</section>
+
+<!-- MARQUEE -->
+<div class="marquee">
+  <div class="marquee-track">
+    <span>Brand Strategy</span>
+    <span class="marquee-dot"></span>
+    <span>Visual Identity</span>
+    <span class="marquee-dot">✦</span>
+    <span>Digital Design</span>
+    <span class="marquee-dot">✦</span>
+    <span>Art Direction</span>
+    <span class="marquee-dot">✦</span>
+    <span>Motion</span>
+    <span class="marquee-dot">✦</span>
+    <span>Brand Strategy</span>
+    <span class="marquee-dot">✦</span>
+    <span>Visual Identity</span>
+    <span class="marquee-dot">✦</span>
+    <span>Digital Design</span>
+    <span class="marquee-dot">✦</span>
+    <span>Art Direction</span>
+    <span class="marquee-dot">✦</span>
+  </div>
+</div>
+
+<!-- INTRO SECTION -->
+<section class="intro">
+  <div class="container">
+    <div class="intro-grid">
+      <div class="intro-number">
+        <span>01</span>
+        <span class="number-line"></span>
+      </div>
+      <div class="intro-content">
+        <h2 class="intro-title">
+          We are a <em>multidisciplinary</em> studio building brands that matter.
+        </h2>
+        <p class="intro-text">
+          Founded in 2015, Atelier brings together strategists, designers, and storytellers under one roof. We partner with ambitious founders, heritage houses, and cultural institutions to create work that transcends trends.
+        </p>
+        <div class="intro-stats">
+          <div class="stat">
+            <div class="stat-value" data-target="120">0</div>
+            <div class="stat-label">Projects Delivered</div>
+          </div>
+          <div class="stat">
+            <div class="stat-value" data-target="45">0</div>
+            <div class="stat-label">Global Clients</div>
+          </div>
+          <div class="stat">
+            <div class="stat-value" data-target="18">0</div>
+            <div class="stat-label">Awards Won</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WORK / PORTFOLIO -->
+<section id="work" class="work">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-number">02</span>
+      <h2 class="section-title">Selected <em>Work</em></h2>
+      <p class="section-subtitle">A curated selection of recent projects across industries.</p>
+    </div>
+    
+    <div class="work-list">
+      <article class="work-item">
+        <div class="work-meta">
+          <span class="work-year">2024</span>
+          <span class="work-category">Brand Identity</span>
+        </div>
+        <div class="work-content">
+          <h3 class="work-title">Maison Noir</h3>
+          <p class="work-desc">Complete brand overhaul for a Parisian luxury fashion house.</p>
+        </div>
+        <div class="work-image">
+          <img src="https://images.unsplash.com/photo-1558769132-cb1aea458c5e?w=800&auto=format&fit=crop&q=80" alt="Maison Noir" loading="lazy">
+        </div>
+      </article>
+      
+      <article class="work-item work-item-reverse">
+        <div class="work-meta">
+          <span class="work-year">2024</span>
+          <span class="work-category">Digital Experience</span>
+        </div>
+        <div class="work-content">
+          <h3 class="work-title">Atelier Lumière</h3>
+          <p class="work-desc">Immersive digital platform for a contemporary art gallery.</p>
+        </div>
+        <div class="work-image">
+          <img src="https://images.unsplash.com/photo-1545989253-02cc26577f88?w=800&auto=format&fit=crop&q=80" alt="Atelier Lumière" loading="lazy">
+        </div>
+      </article>
+      
+      <article class="work-item">
+        <div class="work-meta">
+          <span class="work-year">2023</span>
+          <span class="work-category">Strategy & Identity</span>
+        </div>
+        <div class="work-content">
+          <h3 class="work-title">Verde & Co</h3>
+          <p class="work-desc">Sustainable luxury brand positioning for a heritage skincare line.</p>
+        </div>
+        <div class="work-image">
+          <img src="https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=800&auto=format&fit=crop&q=80" alt="Verde & Co" loading="lazy">
+        </div>
+      </article>
+      
+      <article class="work-item work-item-reverse">
+        <div class="work-meta">
+          <span class="work-year">2023</span>
+          <span class="work-category">Art Direction</span>
+        </div>
+        <div class="work-content">
+          <h3 class="work-title">The Grand Hotel</h3>
+          <p class="work-desc">Campaign art direction for a five-star hospitality brand.</p>
+        </div>
+        <div class="work-image">
+          <img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800&auto=format&fit=crop&q=80" alt="The Grand Hotel" loading="lazy">
+        </div>
+      </article>
+    </div>
+    
+    <div class="work-cta">
+      <a href="#" class="btn btn-outline">
+        <span>View All Projects</span>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+          <path d="M7 17L17 7M17 7H7M17 7v10"/>
+        </svg>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services" class="services">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-number">03</span>
+      <h2 class="section-title">Our <em>Expertise</em></h2>
+      <p class="section-subtitle">Six disciplines, one integrated approach to brand building.</p>
+    </div>
+    
+    <div class="services-grid">
+      <div class="service-card">
+        <div class="service-number">01</div>
+        <h3 class="service-title">Brand Strategy</h3>
+        <p class="service-desc">Positioning, architecture, and narrative frameworks that define your brand's place in the world.</p>
+        <ul class="service-list">
+          <li>Market Research</li>
+          <li>Brand Positioning</li>
+          <li>Competitive Analysis</li>
+        </ul>
+      </div>
+      
+      <div class="service-card">
+        <div class="service-number">02</div>
+        <h3 class="service-title">Visual Identity</h3>
+        <p class="service-desc">Logos, typography systems, and visual languages that capture essence and endure.</p>
+        <ul class="service-list">
+          <li>Logo Design</li>
+          <li>Typography</li>
+          <li>Brand Guidelines</li>
+        </ul>
+      </div>
+      
+      <div class="service-card">
+        <div class="service-number">03</div>
+        <h3 class="service-title">Digital Design</h3>
+        <p class="service-desc">Websites and digital products that marry beauty with flawless functionality.</p>
+        <ul class="service-list">
+          <li>Web Design</li>
+          <li>UI/UX</li>
+          <li>Development</li>
+        </ul>
+      </div>
+      
+      <div class="service-card">
+        <div class="service-number">04</div>
+        <h3 class="service-title">Art Direction</h3>
+        <p class="service-desc">Photography, film, and campaign direction that elevates every touchpoint.</p>
+        <ul class="service-list">
+          <li>Photography</li>
+          <li>Film Direction</li>
+          <li>Campaigns</li>
+        </ul>
+      </div>
+      
+      <div class="service-card">
+        <div class="service-number">05</div>
+        <h3 class="service-title">Motion Design</h3>
+        <p class="service-desc">Animation and motion systems that bring brands to life across every medium.</p>
+        <ul class="service-list">
+          <li>Brand Animation</li>
+          <li>Motion Graphics</li>
+          <li>3D Design</li>
+        </ul>
+      </div>
+      
+      <div class="service-card">
+        <div class="service-number">06</div>
+        <h3 class="service-title">Content Strategy</h3>
+        <p class="service-desc">Editorial planning and storytelling that builds authority and audience.</p>
+        <ul class="service-list">
+          <li>Editorial Design</li>
+          <li>Copywriting</li>
+          <li>Social Strategy</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- STUDIO / ABOUT -->
+<section id="studio" class="studio">
+  <div class="studio-grid">
+    <div class="studio-image">
+      <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=1200&auto=format&fit=crop&q=80" alt="Studio" loading="lazy">
+      <div class="studio-image-caption">
+        <span>Our Studio</span>
+        <span>Paris, France</span>
+      </div>
+    </div>
+    <div class="studio-content">
+      <span class="section-number">04</span>
+      <h2 class="section-title">The <em>Studio</em></h2>
+      <p class="studio-text">
+        Housed in a converted atelier in the Marais district, our studio is a space designed for deep work and creative collision. Twelve people, six disciplines, one shared obsession with craft.
+      </p>
+      <p class="studio-text">
+        We believe the best work comes from long-term partnerships, not transactions. Most of our clients have been with us for five years or more.
+      </p>
+      
+      <div class="studio-values">
+        <div class="value">
+          <span class="value-number">01</span>
+          <h4>Craft Over Speed</h4>
+          <p>Every detail considered, nothing rushed.</p>
+        </div>
+        <div class="value">
+          <span class="value-number">02</span>
+          <h4>Partnership Over Projects</h4>
+          <p>We grow with our clients, not just for them.</p>
+        </div>
+        <div class="value">
+          <span class="value-number">03</span>
+          <h4>Timeless Over Trendy</h4>
+          <p>Work that endures beyond the moment.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIAL -->
+<section class="testimonial">
+  <div class="container">
+    <div class="testimonial-inner">
+      <span class="section-number">05</span>
+      <div class="testimonial-content">
+        <svg class="quote-mark" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/>
+        </svg>
+        <blockquote class="testimonial-quote">
+          Atelier didn't just redesign our brand — they redefined how we think about ourselves. The work is exquisite, the process was collaborative, and the results have been transformative.
+        </blockquote>
+        <div class="testimonial-author">
+          <div class="author-info">
+            <div class="author-name">Isabelle Moreau</div>
+            <div class="author-role">CEO, Maison Noir</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- JOURNAL / BLOG -->
+<section id="journal" class="journal">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-number">06</span>
+      <h2 class="section-title">The <em>Journal</em></h2>
+      <p class="section-subtitle">Thoughts on design, brand, and the creative process.</p>
+    </div>
+    
+    <div class="journal-grid">
+      <article class="journal-card">
+        <div class="journal-image">
+          <img src="https://images.unsplash.com/photo-1558655146-9f40138edfeb?w=800&auto=format&fit=crop&q=80" alt="Article" loading="lazy">
+        </div>
+        <div class="journal-meta">
+          <span class="journal-date">March 2026</span>
+          <span class="journal-category">Essay</span>
+        </div>
+        <h3 class="journal-title">The Return of Craft in a Digital Age</h3>
+        <p class="journal-excerpt">Why handmade quality is becoming the ultimate luxury signal.</p>
+        <a href="#" class="journal-link">Read Essay</a>
+      </article>
+      
+      <article class="journal-card">
+        <div class="journal-image">
+          <img src="https://images.unsplash.com/photo-1561070791-2526d30994b8?w=800&auto=format&fit=crop&q=80" alt="Article" loading="lazy">
+        </div>
+        <div class="journal-meta">
+          <span class="journal-date">February 2026</span>
+          <span class="journal-category">Case Study</span>
+        </div>
+        <h3 class="journal-title">Building Brands That Last a Century</h3>
+        <p class="journal-excerpt">Lessons from heritage houses on enduring brand design.</p>
+        <a href="#" class="journal-link">Read Case Study</a>
+      </article>
+      
+      <article class="journal-card">
+        <div class="journal-image">
+          <img src="https://images.unsplash.com/photo-1542744094-24638eff58bb?w=800&auto=format&fit=crop&q=80" alt="Article" loading="lazy">
+        </div>
+        <div class="journal-meta">
+          <span class="journal-date">January 2026</span>
+          <span class="journal-category">Interview</span>
+        </div>
+        <h3 class="journal-title">In Conversation: The Future of Luxury</h3>
+        <p class="journal-excerpt">A dialogue with industry leaders on what comes next.</p>
+        <a href="#" class="journal-link">Read Interview</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="contact">
+  <div class="container">
+    <div class="contact-grid">
+      <div class="contact-left">
+        <span class="section-number">07</span>
+        <h2 class="contact-title">Let's create <em>something</em> extraordinary.</h2>
+        <p class="contact-intro">
+          We take on a limited number of projects each year. Tell us about yours.
+        </p>
+        
+        <div class="contact-info">
+          <div class="contact-block">
+            <span class="contact-label">Email</span>
+            <a href="mailto:hello@atelier.studio" class="contact-value">hello@atelier.studio</a>
+          </div>
+          <div class="contact-block">
+            <span class="contact-label">Phone</span>
+            <a href="tel:+33123456789" class="contact-value">+33 1 23 45 67 89</a>
+          </div>
+          <div class="contact-block">
+            <span class="contact-label">Studio</span>
+            <div class="contact-value">24 Rue des Archives<br>75004 Paris, France</div>
+          </div>
+          <div class="contact-block">
+            <span class="contact-label">Hours</span>
+            <div class="contact-value">Mon — Fri · 9:00 — 18:00</div>
+          </div>
+        </div>
+        
+        <div class="contact-social">
+          <a href="#" class="social-link">Instagram</a>
+          <a href="#" class="social-link">LinkedIn</a>
+          <a href="#" class="social-link">Behance</a>
+          <a href="#" class="social-link">Dribbble</a>
+        </div>
+      </div>
+      
+      <div class="contact-right">
+        <form class="contact-form" id="contactForm">
+          <div class="form-field">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="form-field">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-field">
+            <label for="company">Company</label>
+            <input type="text" id="company" name="company">
+          </div>
+          <div class="form-field">
+            <label for="budget">Project Budget</label>
+            <select id="budget" name="budget" required>
+              <option value="">Select Range</option>
+              <option>€10k — €25k</option>
+              <option>€25k — €50k</option>
+              <option>€50k — €100k</option>
+              <option>€100k+</option>
+            </select>
+          </div>
+          <div class="form-field form-field-full">
+            <label for="message">Tell Us About Your Project</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">
+            <span>Send Message</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M5 12h14M12 5l7 7-7 7"/>
+            </svg>
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <span class="footer-logo">Atelier</span>
+        <p class="footer-tagline">Crafting timeless brands since 2015.</p>
+      </div>
+      <div class="footer-columns">
+        <div class="footer-col">
+          <h5>Studio</h5>
+          <ul>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#studio">About</a></li>
+            <li><a href="#journal">Journal</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Contact</h5>
+          <ul>
+            <li><a href="mailto:hello@atelier.studio">hello@atelier.studio</a></li>
+            <li><a href="tel:+33123456789">+33 1 23 45 67 89</a></li>
+            <li>Paris, France</li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Follow</h5>
+          <ul>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">LinkedIn</a></li>
+            <li><a href="#">Behance</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Atelier Studio. All rights reserved.</span>
+      <span>Designed with obsession in Paris.</span>
+    </div>
+  </div>
+</footer>
+
+<!-- WHATSAPP FLOATING -->
+<a href="https://wa.me/33123456789" class="whatsapp-float" aria-label="WhatsApp" target="_blank" rel="noopener">
+  <svg viewBox="0 0 24 24" fill="currentColor">
+    <path d="M20.52 3.48A11.94 11.94 0 0012.04 0C5.46 0 .1 5.36.1 11.94c0 2.1.55 4.15 1.6 5.96L0 24l6.26-1.64a11.94 11.94 0 005.78 1.47h.01c6.58 0 11.94-5.36 11.94-11.94 0-3.19-1.24-6.19-3.47-8.41z"/>
+  </svg>
+</a>
+
+<script src="script.js"></script>
+</body>
+</html>
